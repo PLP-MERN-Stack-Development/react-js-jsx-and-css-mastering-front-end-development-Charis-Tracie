@@ -1,7 +1,7 @@
 # React.js & Tailwind CSS Task Manager Project
 
 A **responsive Task Manager web application** built using **React.js**, **Tailwind CSS**, and **Vite**. This project demonstrates component-based architecture, state management with hooks, and localStorage persistence.
-
+live demo https://plp-mern-stack-development.github.io/react-js-jsx-and-css-mastering-front-end-development-Charis-Tracie/
 ---
 
 ## 📌 Project Overview
