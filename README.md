@@ -1,70 +1,44 @@
-# React.js and Tailwind CSS Assignment
+# React.js & Tailwind CSS Task Manager Project
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A **responsive Task Manager web application** built using **React.js**, **Tailwind CSS**, and **Vite**. This project demonstrates component-based architecture, state management with hooks, and localStorage persistence.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 📌 Project Overview
 
-## Getting Started
+This application allows users to:
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+- Add, mark as completed, and delete tasks
+- Filter tasks by **All**, **Active**, or **Completed**
+- Persist tasks across sessions using **localStorage**
+- Experience a **responsive design** for mobile, tablet, and desktop
+- Switch between **light and dark mode** (Tailwind `dark:` variant)
 
-## Files Included
+The project follows a clean component architecture with reusable UI elements and organized folders for pages, hooks, and utilities.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## 🧩 Features
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+- **Task Management**
+  - Add new tasks
+  - Toggle task completion
+  - Delete tasks
+  - Filter tasks: All / Active / Completed
+- **State Management**
+  - `useState` for component state
+  - `useEffect` for persisting tasks in localStorage
+  - Custom hook `useLocalStorageTasks` for task management
+- **Reusable Components**
+  - `Button.jsx` – customizable buttons with variants
+  - `TaskManager.jsx` – main task management component
+- **Styling**
+  - Tailwind CSS for layout, typography, spacing, and colors
+  - Dark/Light mode support
+- **Responsive Design**
+  - Works on mobile, tablet, and desktop screens
 
-## Project Structure
+---
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+## 🗂 Project Structure
 
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
